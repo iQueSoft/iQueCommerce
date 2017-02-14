@@ -6,26 +6,26 @@
  Built with a high quality native Android code, iQueCommerce provides easy navigation and user friendly, nice and pleasant UI. 
  It has such a well-done architecture, that changing in different app parts will be done easily and quickly. To launch your own 
  application you will only need to implement your backend service.
- 
- ## App features
-  * 'Authorization'
-  * 'Categories overview'
-  * 'Specified category overview'
-  * 'Product overview'
+
+##  App features
+  * Authorization
+  * Categories overview
+  * Specified category overview
+  * Product overview
       - Title
       - Price
       - Description
       - Photo
-  * 'Shopping cart'
+  * Shopping cart
       - List of products
       - Change products quantity
       - Total price"
-  * 'Native Shopify payment'
-  * 'About us (information about company/shop)'
-  * 'Contact us'
-  * 'Feedback \ Rate us'
-  * 'Account settings'
-  * 'App settings'    
+  * Native Shopify payment
+  * About us (information about company/shop)
+  * Contact us
+  * Feedback \ Rate us
+  * Account settings
+  * App settings'   
 
 ## Compatibility
 **API Level:** Compatible with Android 5.0 or higher.
