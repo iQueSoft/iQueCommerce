@@ -1,18 +1,18 @@
-**iQueCommerce**
+###**iQueCommerce - Android e-commerce application**
 
- iQueCommerce android application is a shopping template which could be launched to a fully operable application.
- Built with a high quality native Android code, Seed eCommerce provides easy navigation and user friendly, nice and pleasant UI. 
+![iQueCommerce](/iQueCommerce.png)
+
+ **iQueCommerce** android application is a shopping template that could be launched to a fully operable application.
+ Built with a high quality native Android code, iQueCommerce provides easy navigation and user friendly, nice and pleasant UI. 
  It has such a well-done architecture, that changing in different app parts will be done easily and quickly. To launch your own 
  application you will only need to implement your backend service.
  
  
- Compatibility
+ ## Compatibility
  **API Level:** Compatible with Android 4.2 or higher.
  
  
- **App features**
- 
- 
+ ## App features
   * Authorization
   * Categories overview
   * Specified category overview
@@ -31,10 +31,8 @@
   * Feedback \ Rate us
   * Account settings
   * App settings
- 
-   
-  **Used libraries**
-   
+    
+  ## Used libraries   
    * [Android Support Design](https://developer.android.com/topic/libraries/support-library/index.html) - Library for implementing native android design.
 
    * [Jake Wharton's Butter Knife](http://jakewharton.github.io/butterknife/) - Library for dependency injection for binding views.
