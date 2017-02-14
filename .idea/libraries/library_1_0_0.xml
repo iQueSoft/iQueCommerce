@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="library-1.0.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.igortrncic.dotted-progress-bar/library/1.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.igortrncic.dotted-progress-bar/library/1.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.igortrncic.dotted-progress-bar/library/1.0.0/471751080e0bec60e250463107c738f408a2896b/library-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
