@@ -28,7 +28,7 @@
   * App settings'   
 
 ## Compatibility
-**API Level:** Compatible with Android 5.0 or higher.
+**API Level:** Compatible with Android 4.2 or higher.
 
 ## Used libraries   
    * [Android Support Design](https://developer.android.com/topic/libraries/support-library/index.html) - Library for implementing native android design.
