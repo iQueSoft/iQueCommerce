@@ -1,4 +1,4 @@
-###**iQueCommerce - Android e-commerce application**
+#**iQueCommerce - Android e-commerce application**
 
 ![iQueCommerce](/iQueCommerce.png)
 
@@ -7,32 +7,30 @@
  It has such a well-done architecture, that changing in different app parts will be done easily and quickly. To launch your own 
  application you will only need to implement your backend service.
  
- 
- ## Compatibility
- **API Level:** Compatible with Android 4.2 or higher.
- 
- 
  ## App features
-  * Authorization
-  * Categories overview
-  * Specified category overview
-  * Product overview 
+  * 'Authorization'
+  * 'Categories overview'
+  * 'Specified category overview'
+  * 'Product overview'
       - Title
       - Price
       - Description
       - Photo
-  * Shopping cart 
+  * 'Shopping cart'
       - List of products
       - Change products quantity
       - Total price"
-  * Native Shopify payment
-  * About us (information about company/shop)
-  * Contact us
-  * Feedback \ Rate us
-  * Account settings
-  * App settings
-    
-  ## Used libraries   
+  * 'Native Shopify payment'
+  * 'About us (information about company/shop)'
+  * 'Contact us'
+  * 'Feedback \ Rate us'
+  * 'Account settings'
+  * 'App settings'    
+
+## Compatibility
+**API Level:** Compatible with Android 5.0 or higher.
+
+## Used libraries   
    * [Android Support Design](https://developer.android.com/topic/libraries/support-library/index.html) - Library for implementing native android design.
 
    * [Jake Wharton's Butter Knife](http://jakewharton.github.io/butterknife/) - Library for dependency injection for binding views.
