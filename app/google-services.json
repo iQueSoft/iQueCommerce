@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "704932448686",
+    "firebase_url": "https://seed-906c6.firebaseio.com",
+    "project_id": "seed-906c6",
+    "storage_bucket": "seed-906c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704932448686:android:6b7ead212621c28c",
+        "android_client_info": {
+          "package_name": "com.kasilov.andrew.seed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704932448686-f2ft2cmla337e5ei92dk49d3clh37fvp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kasilov.andrew.seed",
+            "certificate_hash": "22A13F0954E672EAADEBB3FA51B57069FFEB1755"
+          }
+        },
+        {
+          "client_id": "704932448686-v6dg6j6gjvamih9k4so2evtf1hbl3u58.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "704932448686-ucvbcadl6utub2grk08i28j4fmoijtk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_ysUtZKp8UoZ5Nk0GkCaUbhUdQCNwpws"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704932448686-v6dg6j6gjvamih9k4so2evtf1hbl3u58.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704932448686:android:a90248d0b78243a1",
+        "android_client_info": {
+          "package_name": "net.iquesoft.project.seed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704932448686-t1uiqqc14cddr1mieber9ruuc6o15vge.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.iquesoft.project.seed",
+            "certificate_hash": "22A13F0954E672EAADEBB3FA51B57069FFEB1755"
+          }
+        },
+        {
+          "client_id": "704932448686-v6dg6j6gjvamih9k4so2evtf1hbl3u58.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "704932448686-ucvbcadl6utub2grk08i28j4fmoijtk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_ysUtZKp8UoZ5Nk0GkCaUbhUdQCNwpws"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704932448686-v6dg6j6gjvamih9k4so2evtf1hbl3u58.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

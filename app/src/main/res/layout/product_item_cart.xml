@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:carView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    carView:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_78sdp"
+            android:gravity="center_vertical|top">
+
+            <ImageView
+                android:id="@+id/iv_product_image_cart"
+                android:layout_width="@dimen/_72sdp"
+                android:layout_height="@dimen/_72sdp"
+                android:layout_margin="4dp"
+                android:contentDescription="@string/product_image" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/iv_product_image_cart"
+                android:layout_marginLeft="@dimen/spacing_4dp"
+                android:layout_marginRight="@dimen/spacing_4dp"
+                android:layout_toEndOf="@+id/iv_product_image_cart"
+                android:gravity="center|bottom"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_product_title_cart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/product_title"
+                    android:textSize="@dimen/textLarge" />
+
+                <TextView
+                    android:id="@+id/tv_product_price_cart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/product_price"
+                    android:textSize="@dimen/textMedium"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/btn_close_item_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/ic_close"
+                android:contentDescription="@string/close_image" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_4dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_decrease_item_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_chevron_left"
+                android:contentDescription="@string/chevron" />
+
+            <TextView
+                android:id="@+id/tv_product_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/spacing_4dp"
+                android:layout_marginStart="@dimen/spacing_4dp"
+                android:textSize="@dimen/textMedium" />
+
+            <ImageView
+                android:id="@+id/iv_increase_item_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_chevron_right"
+                android:contentDescription="@string/chevron" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

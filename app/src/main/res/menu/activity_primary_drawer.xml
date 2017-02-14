@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="@string/main"/>
+        <item
+            android:id="@+id/nav_track_order"
+            android:icon="@drawable/track"
+            android:title="@string/track_my_order"/>
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/shopping_cartcopy"
+            android:title="@string/my_orders"/>
+        <!--<item-->
+        <!--android:id="@+id/nav_gallery"-->
+        <!--android:icon="@drawable/ic_menu_gallery"-->
+        <!--android:title="Gallery" />-->
+        <item
+            android:id="@+id/nav_app_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/settings"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_wish_list"
+            android:icon="@drawable/favourite_icon"
+            android:title="@string/favourites"/>
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/faq_icon"
+            android:title="@string/faq"/>
+
+        <item
+            android:id="@+id/nav_account_settings"
+            android:icon="@drawable/settings"
+            android:title="@string/account_settings"/>
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/share"
+            android:title="@string/share"/>
+    </group>
+
+    <item
+        android:title="@string/communicate"
+        android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_information_outline"
+                android:title="@string/about_us"
+                android:visible="false"/>
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/ic_email_variant"
+                android:title="@string/contact_us"
+                android:visible="false"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/nav_logOut"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/log_out"
+        android:visible="false" />
+
+</menu>

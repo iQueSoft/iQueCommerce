@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="?android:attr/actionBarSize">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        cardView:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_8dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/customer_information"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/textMedium" />
+
+                    <TextView
+                        android:id="@+id/btn_edit_customer_info"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/spacing_4dp"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:text="@string/edit"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="@dimen/textMedium"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorPrimary" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_customer_info"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/textMedium" />
+
+                <!--<android.support.v7.widget.AppCompatButton-->
+                <!--android:id="@+id/btn_edit_name_account_settings"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="36dp"-->
+                <!--android:background="@color/colorAccent"-->
+                <!--android:text="@string/edit"-->
+                <!--android:textSize="@dimen/textMedium" />-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/shipping_address"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/textMedium" />
+
+                    <TextView
+                        android:id="@+id/btn_edit_shipping_address"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/spacing_4dp"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:text="@string/edit"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="@dimen/textMedium"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorPrimary" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_shipping_address"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/textMedium" />
+
+                <!--<android.support.v7.widget.AppCompatButton-->
+                <!--android:id="@+id/btn_edit_shipping_address_account_settings"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="36dp"-->
+                <!--android:background="@color/colorAccent"-->
+                <!--android:text="@string/edit"-->
+                <!--android:textSize="@dimen/textMedium" />-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/billing_address"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/textMedium" />
+
+                    <TextView
+                        android:id="@+id/btn_edit_billing_address"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/spacing_4dp"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:text="@string/edit"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="@dimen/textMedium"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorPrimary" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_billing_address"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/textMedium" />
+
+                <!--<android.support.v7.widget.AppCompatButton-->
+                <!--android:id="@+id/btn_edit_billing_address_account_settings"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="36dp"-->
+                <!--android:background="@color/colorAccent"-->
+                <!--android:text="@string/edit"-->
+                <!--android:textSize="@dimen/textMedium" />-->
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <include layout="@layout/view_progress" />
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
